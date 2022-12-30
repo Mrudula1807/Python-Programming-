@@ -1,0 +1,8 @@
+print("Enter the String: ", end="")
+str = input()
+str = sorted(str)
+str = ''.join(str)
+print("\nSorted String is:", str)
+str = sorted(str, reverse=True)
+str = ''.join(str)
+print("\nSorted String in reverse is: ",str)
